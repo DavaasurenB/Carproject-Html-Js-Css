@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive car sale website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <div class="nav container">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <a href="#" class="logo">Speed<span>Hub</span></a>
+            <ul class="navbar">
+                <button id="#home">Home</button>
+                <button id="#cars">Машинууд</button>
+                <button id="#about">Тухай</button>
+                <button id="#parts">Эд анги</button>
+                <button id="Btnlogin-popup">Login</button>
+            </ul>
+            <i class='bx bx-search' id="search-icon"></i>
+
+            <div class="search-box container">
+                <input type="search" name="" id="" placeholder="Search here..">
+            </div>
+        </div>
+        <div class="wrapper">
+            <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+            <div class="form-box login">
+                <h>Login</h>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forget">
+                        <label><input type="checkbox">
+                            Remember me</label>
+                        <a href="#">Forget password</a>
+                    </div>
+                    <button type="sumbit" class="btn">Login</button>
+                    <div class="login-register">
+                        <p> don't have an account
+                            <a href="#" class="register-link">Register</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+            <div class="form-box register">
+                <h2>Registration</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="person-outline"></ion-icon></ion-icon></span>
+                        <input type="email" required>
+                        <label>Username</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forget">
+                        <label><input type="checkbox">
+                            I agree to the terms & conditions</label>
+                    </div>
+                    <button type="sumbit" class="btn">Register</button>
+                    <div class="login-register">
+                        <p> Already have an account
+                            <a href="#" class="login-link">Login</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Бидэнд машинд чинь<br> Хэрэгтэй<span> БҮХ </span>зүйл бий</h1>
+            <p>Харилцагчид та бүхэнд бид <br>чанартай бараануудыг хүргэх болно.</p>
+            <a href="#" class="btn">Яг одоо хай</a>
+        </div>
+    </section>
+    <section class="cars" id="cars">
+        <div class="heading">
+            <span>Машинууд</span>
+            <h2>Бидний машиний төрлүүд</h2>
+            <p>Хүссэн төрлөөсөө сонгоно уу?</p>
+        </div>
+        <div class="cars-container container">
+            <div class="box">
+                <img src="img/car1.jpg" alt="">
+                <h2>Porsche</h2>
+            </div>
+            <div class="box">
+                <img src="img/car2.jpg" alt="">
+                <h2>Audi</h2>
+            </div>
+            <div class="box">
+                <img src="img/car3.jpg" alt="">
+                <h2>
+                    <Audio></Audio>
+                </h2>
+            </div>
+            <div class="box">
+                <img src="img/car4.jpg" alt="">
+                <h2>Audi</h2>
+            </div>
+            <div class="box">
+                <img src="img/car5.jpg" alt="">
+                <h2>Audi</h2>
+            </div>
+            <div class="box">
+                <img src="img/car6.jpg" alt="">
+                <h2>Mustang</h2>
+            </div>
+        </div>
+    </section>
+    <section class="about container" id="about">
+        <div class="about-img ">
+            <img src="img/about.png " alt=" ">
+        </div>
+        <div class="about-text ">
+            <span>Бидний тухай</span>
+            <h2>Хямд үнэ болон
+                <br>чанар</h2>
+            <p>Энэ сайт нь 2023 онд үүсгэн байгуулагдсан бөгөөд шинэ эрин зууны шинэ хөдөлгүүр болон бусад танд хэрэгтэй бүх зүйлс байх болно</p>
+            <a href="# " class="btn ">Дэлгэрэнгүй</a>
+        </div>
+    </section>
+    <section class="parts " id="parts ">
+        <div class="heading ">
+            <span>Бидэнд байгаа зүйл</span>
+            <h2>Машин бол гайхалтай зүйл юм</h2>
+            <p>Бидэнд одоохондоо цөөн тооны зүйл байгаа учир та хүлээчтэй хандана уу!</p>
+        </div>
+        <div class="parts-container container ">
+            <div class="box ">
+                <img src="img/part1.png " alt=" ">
+                <h3>Хөдөлгүүр</h3>
+                <span>$2000.0</span>
+            </div>
+        </div>
+        <div class="parts-container container ">
+            <div class="box ">
+                <img src="img/part2.png " alt=" ">
+                <h3></h3>
+                <span>$500.0</span>
+            </div>
+        </div>
+        </div>
+        <div class="parts-container container ">
+            <div class="box ">
+                <img src="img/part4.png " alt=" ">
+                <h3>Цэвэршүүлэгч</h3>
+                <span>$120.99</span>
+            </div>
+        </div>
+        <div class="parts-container container ">
+            <div class="box ">
+                <img src="img/part5.png " alt=" ">
+                <h3>Генартор</h3>
+                <span>$120.99</span>
+            </div>
+        </div>
+        <div class="parts-container container ">
+            <div class="box ">
+                <img src="img/part6.png " alt=" ">
+                <h3>Дугуй</h3>
+                <span>$120.99</span>
+            </div>
+        </div>
+    </section>
+    <script src="main.js "></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
+
+</html>
